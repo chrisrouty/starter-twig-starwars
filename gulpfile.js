@@ -4,7 +4,7 @@
 const gulp = require('gulp');
 const path = require('path');
 const data = require('gulp-data');
-const twig = require('gulp-twig'); // Decided to use twig, because already familiar with it
+const twig = require('gulp-twig');
 const prefix = require('gulp-autoprefixer');
 const sass = require('gulp-sass');
 const	plumber = require('gulp-plumber');
