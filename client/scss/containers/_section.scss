@@ -1,0 +1,57 @@
+section{
+  &:not(.banner){
+    @media screen and (max-width: 992px) {
+      padding: 0 40px; 
+    }
+  }
+  &.intro{
+    max-width: 850px;
+    margin: 40px auto;
+    > div{
+      display: flex;
+      > div{
+        max-width: 500px;
+        @media screen and (max-width: 993px) {
+          max-width: none;
+        }
+      }
+      @media screen and (min-width: 993px) {
+        > *:first-child{
+          margin-right: 50px;
+  
+        }
+      }
+      @media screen and (max-width: 600px) {
+        p{
+          text-align: center;
+        }
+      }
+    }
+    @media screen and (max-width: 600px) {
+      h2{
+        text-align: center;
+      }
+    }
+
+  }
+  &.resume{
+    max-width: 850px;
+    margin: 40px auto;
+    img{
+      float: left;
+      margin-right: 15px;
+      @media screen and (max-width: 600px) {
+        display: block;
+        float: none;
+        margin: 0 auto 25px auto;
+        width: 100%;
+      }
+    }
+    > div{
+      display: inline;
+    }
+    p{
+      font-size: $fs_description_li;
+    }
+  }
+}

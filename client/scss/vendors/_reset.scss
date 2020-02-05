@@ -1,0 +1,17 @@
+@import '../../node_modules/reset-css/sass/reset';  
+
+a{
+  text-decoration: none; 
+  color: #000000;
+}
+b, strong{
+  font-weight: bold;
+}
+em, i{
+  font-style: italic;
+}
+button{
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}

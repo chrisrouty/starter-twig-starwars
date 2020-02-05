@@ -1,0 +1,35 @@
+button{
+  &.close{
+    position: absolute;
+    width: 50px; 
+    height: 50px;
+    top: 50px;
+    right: 50px; 
+    background: transparent;
+    &:after{
+      content: '';
+      display: block;
+      width: 34px;
+      height: 34px;
+      background: url(../images/close.png) no-repeat;
+    }
+  }
+  &.menu{
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    right: 15px;
+    background: transparent;
+    z-index: 1;
+    transition: all ease 2s;
+    background: #000000;
+    &:after{
+      content: '';
+      display: block;
+      width: 34px;
+      height: 34px;
+      background: url(../images/menu.png) no-repeat;
+      background-position: center center;
+    }
+  }
+}

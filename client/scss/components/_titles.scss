@@ -1,0 +1,24 @@
+h2{
+  font-family: $ft_default;
+  font-weight: bold;
+  font-size: $fs_h2;
+  line-height: 22px;
+  color: $clr_h2;
+}
+h3{
+  font-family: $ft_default;
+  font-weight: bold;
+  font-size: $fs_h3;
+  line-height: 38px;
+  color: $clr_h3;
+  text-align: center;
+  margin-bottom: 30px;
+}
+h4{
+  font-weight: bold;
+}
+.intro{
+  h2{
+    margin-bottom: 20px;
+  }
+}

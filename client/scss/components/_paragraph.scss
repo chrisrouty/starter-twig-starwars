@@ -1,0 +1,17 @@
+p{
+  font-size: $fs_p;
+  line-height: 22px;
+  font-family: $ft_default;
+  color: $clr_p;
+}
+
+.resume {
+  p{
+    font-size: $fs_description;
+  }
+}
+.intro {
+  p{
+    margin-bottom: 20px;
+  }
+}
